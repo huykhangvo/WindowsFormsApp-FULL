@@ -37,6 +37,12 @@
             this.bài5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bài6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bài7ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bài9ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bài10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,7 +66,9 @@
             this.bài4ToolStripMenuItem,
             this.bài5ToolStripMenuItem,
             this.bài6ToolStripMenuItem,
-            this.bài7ToolStripMenuItem});
+            this.bài7ToolStripMenuItem,
+            this.bài9ToolStripMenuItem,
+            this.bài10ToolStripMenuItem});
             this.toolStripSplitButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton1.Image")));
             this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSplitButton1.Name = "toolStripSplitButton1";
@@ -109,6 +117,52 @@
             this.bài7ToolStripMenuItem.Text = "Bài 7";
             this.bài7ToolStripMenuItem.Click += new System.EventHandler(this.bài7ToolStripMenuItem_Click);
             // 
+            // bài9ToolStripMenuItem
+            // 
+            this.bài9ToolStripMenuItem.Name = "bài9ToolStripMenuItem";
+            this.bài9ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.bài9ToolStripMenuItem.Text = "Bài 9";
+            this.bài9ToolStripMenuItem.Click += new System.EventHandler(this.bài9ToolStripMenuItem_Click);
+            // 
+            // bài10ToolStripMenuItem
+            // 
+            this.bài10ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aToolStripMenuItem,
+            this.bToolStripMenuItem,
+            this.cToolStripMenuItem,
+            this.dToolStripMenuItem});
+            this.bài10ToolStripMenuItem.Name = "bài10ToolStripMenuItem";
+            this.bài10ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.bài10ToolStripMenuItem.Text = "Bài 10";
+            // 
+            // aToolStripMenuItem
+            // 
+            this.aToolStripMenuItem.Name = "aToolStripMenuItem";
+            this.aToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.aToolStripMenuItem.Text = "a";
+            this.aToolStripMenuItem.Click += new System.EventHandler(this.aToolStripMenuItem_Click);
+            // 
+            // bToolStripMenuItem
+            // 
+            this.bToolStripMenuItem.Name = "bToolStripMenuItem";
+            this.bToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.bToolStripMenuItem.Text = "b";
+            this.bToolStripMenuItem.Click += new System.EventHandler(this.bToolStripMenuItem_Click);
+            // 
+            // cToolStripMenuItem
+            // 
+            this.cToolStripMenuItem.Name = "cToolStripMenuItem";
+            this.cToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.cToolStripMenuItem.Text = "c";
+            this.cToolStripMenuItem.Click += new System.EventHandler(this.cToolStripMenuItem_Click);
+            // 
+            // dToolStripMenuItem
+            // 
+            this.dToolStripMenuItem.Name = "dToolStripMenuItem";
+            this.dToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.dToolStripMenuItem.Text = "d";
+            this.dToolStripMenuItem.Click += new System.EventHandler(this.dToolStripMenuItem_Click);
+            // 
             // main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -134,5 +188,11 @@
         private System.Windows.Forms.ToolStripMenuItem bài5ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bài6ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bài7ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bài9ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bài10ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dToolStripMenuItem;
     }
 }

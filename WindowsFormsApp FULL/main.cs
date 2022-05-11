@@ -52,5 +52,35 @@ namespace WindowsFormsApp_FULL
             var f = new Bai7();
             f.ShowDialog();
         }
+
+        private void bài9ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var f = new Bai9();
+            f.ShowDialog();
+        }
+
+        private void aToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var f = new Bai10a();
+            f.ShowDialog();
+        }
+
+        private void bToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var f = new Bai10b();
+            f.ShowDialog();
+        }
+
+        private void cToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var f = new Bai10c();
+            f.ShowDialog();
+        }
+
+        private void dToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var f = new Bai10d();
+            f.ShowDialog();
+        }
     }
 }
