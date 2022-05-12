@@ -82,5 +82,11 @@ namespace WindowsFormsApp_FULL
             var f = new Bai10d();
             f.ShowDialog();
         }
+
+        private void bài11ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var f = new Bai11();
+            f.ShowDialog();
+        }
     }
 }

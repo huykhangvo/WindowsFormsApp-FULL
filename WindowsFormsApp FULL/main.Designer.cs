@@ -43,6 +43,7 @@
             this.bToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bài11ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,7 +69,8 @@
             this.bài6ToolStripMenuItem,
             this.bài7ToolStripMenuItem,
             this.bài9ToolStripMenuItem,
-            this.bài10ToolStripMenuItem});
+            this.bài10ToolStripMenuItem,
+            this.bài11ToolStripMenuItem});
             this.toolStripSplitButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton1.Image")));
             this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSplitButton1.Name = "toolStripSplitButton1";
@@ -138,30 +140,37 @@
             // aToolStripMenuItem
             // 
             this.aToolStripMenuItem.Name = "aToolStripMenuItem";
-            this.aToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.aToolStripMenuItem.Size = new System.Drawing.Size(101, 26);
             this.aToolStripMenuItem.Text = "a";
             this.aToolStripMenuItem.Click += new System.EventHandler(this.aToolStripMenuItem_Click);
             // 
             // bToolStripMenuItem
             // 
             this.bToolStripMenuItem.Name = "bToolStripMenuItem";
-            this.bToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.bToolStripMenuItem.Size = new System.Drawing.Size(101, 26);
             this.bToolStripMenuItem.Text = "b";
             this.bToolStripMenuItem.Click += new System.EventHandler(this.bToolStripMenuItem_Click);
             // 
             // cToolStripMenuItem
             // 
             this.cToolStripMenuItem.Name = "cToolStripMenuItem";
-            this.cToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.cToolStripMenuItem.Size = new System.Drawing.Size(101, 26);
             this.cToolStripMenuItem.Text = "c";
             this.cToolStripMenuItem.Click += new System.EventHandler(this.cToolStripMenuItem_Click);
             // 
             // dToolStripMenuItem
             // 
             this.dToolStripMenuItem.Name = "dToolStripMenuItem";
-            this.dToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.dToolStripMenuItem.Size = new System.Drawing.Size(101, 26);
             this.dToolStripMenuItem.Text = "d";
             this.dToolStripMenuItem.Click += new System.EventHandler(this.dToolStripMenuItem_Click);
+            // 
+            // bài11ToolStripMenuItem
+            // 
+            this.bài11ToolStripMenuItem.Name = "bài11ToolStripMenuItem";
+            this.bài11ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.bài11ToolStripMenuItem.Text = "Bài 11";
+            this.bài11ToolStripMenuItem.Click += new System.EventHandler(this.bài11ToolStripMenuItem_Click);
             // 
             // main
             // 
@@ -194,5 +203,6 @@
         private System.Windows.Forms.ToolStripMenuItem bToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bài11ToolStripMenuItem;
     }
 }
