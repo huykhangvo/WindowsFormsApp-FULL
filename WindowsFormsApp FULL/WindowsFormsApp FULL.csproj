@@ -130,14 +130,45 @@
     <Compile Include="Bai9.Designer.cs">
       <DependentUpon>Bai9.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmCha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCha.Designer.cs">
+      <DependentUpon>frmCha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CongTyDuLich.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CongTyDuLich.Designer.cs">
+      <DependentUpon>CongTyDuLich.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCon.Designer.cs">
+      <DependentUpon>frmCon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="main.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="main.Designer.cs">
       <DependentUpon>main.cs</DependentUpon>
     </Compile>
+    <Compile Include="NhapThongTinNguoiDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhapThongTinNguoiDung.Designer.cs">
+      <DependentUpon>NhapThongTinNguoiDung.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="xulychuanhoachuoi.cs" />
     <EmbeddedResource Include="Bai10a.resx">
       <DependentUpon>Bai10a.cs</DependentUpon>
     </EmbeddedResource>
@@ -180,8 +211,23 @@
     <EmbeddedResource Include="Bai9.resx">
       <DependentUpon>Bai9.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CongTyDuLich.resx">
+      <DependentUpon>CongTyDuLich.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCha.resx">
+      <DependentUpon>frmCha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCon.resx">
+      <DependentUpon>frmCon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="main.resx">
       <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhapThongTinNguoiDung.resx">
+      <DependentUpon>NhapThongTinNguoiDung.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

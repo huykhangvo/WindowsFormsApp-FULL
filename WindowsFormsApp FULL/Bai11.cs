@@ -20,22 +20,8 @@ namespace WindowsFormsApp_FULL
         private void button1_Click(object sender, EventArgs e)
         {
 
-            if (!String.IsNullOrEmpty(khungnhap.Text))
-
-            {
-
-                cbb.Items.Add(khungnhap.Text);
-
-                khungnhap.ResetText();
-                khungnhap.Focus();
-
-            }
-
-            else
-
-                MessageBox.Show("Bạn chưa nhập");
         }
-    
+
 
         private void Bai11_Load(object sender, EventArgs e)
         {

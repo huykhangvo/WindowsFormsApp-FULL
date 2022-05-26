@@ -71,7 +71,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Cập nhật";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.button2_Click);
             // 
             // khungnhap
             // 
@@ -167,7 +167,6 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.ComboBox cbb;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox khungnhap;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.ListBox lbl;
@@ -175,5 +174,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button1;
     }
 }

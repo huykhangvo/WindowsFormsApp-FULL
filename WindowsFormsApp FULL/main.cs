@@ -12,9 +12,16 @@ namespace WindowsFormsApp_FULL
 {
     public partial class main : Form
     {
+        private string username, password;
         public main()
         {
             InitializeComponent();
+        }
+        public main(string user, string pass)
+        {
+            InitializeComponent();
+            this.username = user;
+            this.password = pass;
         }
 
         private void bài2ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -98,6 +105,36 @@ namespace WindowsFormsApp_FULL
         private void bài12ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var f = new Bai12();
+            f.ShowDialog();
+        }
+
+        private void nhậpThôngTinToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var f = new NhapThongTinNguoiDung();
+            f.ShowDialog();
+        }
+
+        private void côngTyDuLịchToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var f = new CongTyDuLich();
+            f.ShowDialog();
+        }
+
+        private void main_Load(object sender, EventArgs e)
+        {
+            lbname.Text = username;
+            lbpass.Text = password;
+        }
+
+        private void truyềnDữLiệuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var f = new frmCha();
+            f.ShowDialog();
+        }
+
+        private void loginToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var f = new Login();
             f.ShowDialog();
         }
     }
